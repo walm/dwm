@@ -5,12 +5,12 @@ This is a clone of [suckless.org](https://dwm.suckless.org/) dynamic window mana
 
 ## Customizations
 
-.. TODO: add my customizations
+ - [notitle](https://dwm.suckless.org/patches/notitle/)
 
 ## How it was done
 
 	cd src
-	patch < ../patches/XXXXXXX.diff
+	patch < ../patches/dwm-notitle-6.2.diff
 
 ## Installation
 
