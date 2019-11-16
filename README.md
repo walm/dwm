@@ -8,7 +8,7 @@ This is a clone of [suckless.org](https://dwm.suckless.org/) dynamic window mana
  - [notitle](https://dwm.suckless.org/patches/notitle/)
  - [scratchpad](https://dwm.suckless.org/patches/scratchpad/)
  - [fullscreen](https://dwm.suckless.org/patches/fullscreen/)
- - [ru_gaps](https://dwm.suckless.org/patches/ru_gaps/)
+ - [ru_gaps + ru_centeredmaster](https://dwm.suckless.org/patches/ru_gaps/)
 
 ## How it was done
 
@@ -17,6 +17,7 @@ This is a clone of [suckless.org](https://dwm.suckless.org/) dynamic window mana
 	patch < ../patches/dwm-scratchpad-6.2.diff
 	patch < ../patches/dwm-fullscreen-6.2.diff
 	patch < ../patches/dwm-ru_gaps-6.2.diff
+	patch < ../patches/dwm-ru_centeredmaster-6.2.diff
 
 ## Installation
 
