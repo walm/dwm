@@ -73,8 +73,8 @@ static Key keys[] = {
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_l,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_h,      focusstack,     {.i = -1 } },
-	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
-	{ MODKEY,                       XK_d,      incnmaster,     {.i = -1 } },
+	/* { MODKEY,                       XK_i,      incnmaster,     {.i = +1 } }, */
+	/* { MODKEY,                       XK_d,      incnmaster,     {.i = -1 } }, */
 	{ MODKEY,                       XK_j,      setmfact,       {.f = -0.05} },
 	{ MODKEY,                       XK_k,      setmfact,       {.f = +0.05} },
 	{ MODKEY,                       XK_Return, zoom,           {0} },
@@ -91,10 +91,10 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_f,      fullscreen,     {0} },
 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
 	{ MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } },
-	{ MODKEY,                       XK_comma,  focusmon,       {.i = -1 } },
-	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
-	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
-	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
+	/* { MODKEY,                       XK_comma,  focusmon,       {.i = -1 } }, */
+	/* { MODKEY,                       XK_period, focusmon,       {.i = +1 } }, */
+	/* { MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } }, */
+	/* { MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } }, */
 	{ MODKEY|ControlMask,           XK_minus,  setgaps,        {.i = -5 } },
 	{ MODKEY|ControlMask,           XK_plus,   setgaps,        {.i = +5 } },
 	{ MODKEY|ControlMask|ShiftMask, XK_plus,   setgaps,        {.i = 0  } },
